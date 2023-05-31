@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 375px;
   margin: auto;
@@ -20,13 +24,58 @@ img {
 }
 
 header {
+  color: #000;
+  font-weight: 700;
+  font-size: 17px;
   background-image: url(../img/bg-vevey.jpg);
+  height: 280px;
+}
+
+header p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.container-header {
+  flex-flow: column wrap;
+  align-items: flex-end;
+}
+
+.container-header .logo-big {
+  align-self: flex-start;
+  max-width: 216px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
 }
 
 main {
   background: #000;
 }
 
+p {
+  font-size: 16px;
+  padding: 20px 25px;
+  margin: 0;
+  line-height: 18px;
+}
+
 h2 {
   font-family: 'theboldstreetregular';
+  font-size: 46px;
+  font-weight: 200;
+  transform: scale(1, 1.2);
+  text-transform: capitalize;
+  padding: 0 25px;
+  margin: 0;
+}
+
+footer {
+  background: #000;
 }
