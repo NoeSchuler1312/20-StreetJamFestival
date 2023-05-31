@@ -1,10 +1,28 @@
+@font-face {
+  font-family: 'theboldstreetregular';
+  src: url('theboldstreet-webfont.woff2') format('woff2'),
+       url('theboldstreet-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   max-width: 375px;
   margin: auto;
-  background: #ddd;
+  background: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  background-image: url(../img/bg-vevey.jpg);
+}
+
+h2 {
+  font-family: 'theboldstreetregular';
 }
