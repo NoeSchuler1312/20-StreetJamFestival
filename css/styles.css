@@ -65,7 +65,7 @@ p {
   font-size: 16px;
   padding: 0 25px 20px 25px;
   margin: 0;
-  line-height: 19px;
+  line-height: 18.5px;
 }
 
 h2 {
@@ -74,7 +74,7 @@ h2 {
   font-weight: 200;
   transform: scale(1, 1.2);
   text-transform: capitalize;
-  padding: 0 25px 10px;
+  padding: 7px 25px 0;
   margin: 0;
 }
 
@@ -107,14 +107,15 @@ footer {
   background: #000;
 }
 
-footer .logo-small {
-  max-width: 148px;
+.logo-small {
+  max-width: 150px;
   margin: auto;
-  padding: 40px 0;
+  padding: 35px 0 40px;
 }
 
-header .logo-big {
+.logo-big {
   width: 216px;
+  padding: 57px 0 0 17px;
 }
 
 .container-logo {
@@ -132,7 +133,15 @@ header .logo-big {
   align-items: flex-end;
 }
 
-.container-header .cta {
+.container-cta img {
+  padding: 0 0 0 18px;
+}
+
+.container-cta p {
+  padding: 11px 28px 0 18px;
+}
+
+.cta {
   width: 145px;
 }
 
@@ -164,4 +173,9 @@ header .logo-big {
 .img-portrait {
   max-width: 75%;
   margin: auto;
+}
+
+.img-text-festival {
+  padding: 0 0 0 165px;
+  margin: 0 0 10px;
 }
