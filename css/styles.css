@@ -35,6 +35,14 @@ strong {
   font-weight: 700;
 }
 
+.note {
+  font-size: 12px;
+}
+
+.note-portrait {
+  text-align: center;
+}
+
 header p {
   margin: 0;
   padding: 0;
@@ -128,27 +136,32 @@ header .logo-big {
   width: 145px;
 }
 
-main .img-text {
+.img-text {
   max-width: 233px;
   max-height: 105px;
 }
 
-main .img-picture-art {
+.img-picture-art {
   max-width: 127px;
   max-height: 174px;
 }
 
-main .img-picture-skateboard {
+.img-picture-skateboard {
   max-width: 206px;
   max-height: 194px;
 }
 
-main .img-picture-music {
+.img-picture-music {
   max-width: 153px;
   max-height: 197px;
 }
 
-main .img-picture-food {
+.img-picture-food {
   max-width: 172px;
   max-height: 128px;
+}
+
+.img-portrait {
+  max-width: 75%;
+  margin: auto;
 }
