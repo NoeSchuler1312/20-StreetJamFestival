@@ -13,7 +13,7 @@ html {
 body {
   max-width: 375px;
   margin: auto;
-  background: #a1a1a1;
+  background: #666;
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
@@ -114,8 +114,8 @@ footer {
 }
 
 .logo-big {
-  width: 216px;
-  padding: 57px 0 0 17px;
+  width: 225px;
+  padding: 60px 0 0 17px;
 }
 
 .container-logo {
@@ -131,6 +131,7 @@ footer {
   box-sizing: border-box;
   flex-direction: column;
   align-items: flex-end;
+  overflow: hidden;
 }
 
 .container-cta img {
@@ -138,7 +139,7 @@ footer {
 }
 
 .container-cta p {
-  padding: 11px 28px 0 18px;
+  padding: 10px 35px 0 18px;
 }
 
 .cta {
@@ -178,4 +179,20 @@ footer {
 .img-text-festival {
   padding: 0 0 0 165px;
   margin: 0 0 10px;
+}
+
+.title-art {
+  text-shadow: 7px 5px #EA3C24;
+}
+
+.title-skateboard {
+  text-shadow: 7px 5px #5375C1;
+}
+
+.title-music {
+  text-shadow: 7px 5px #ECB33D;
+}
+
+.title-food {
+  text-shadow: 7px 5px #54B936;
 }
