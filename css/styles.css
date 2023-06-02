@@ -123,3 +123,28 @@ header .logo-big {
 .container-header .cta {
   width: 145px;
 }
+
+main .img-text {
+  max-width: 233px;
+  max-height: 105px;
+}
+
+main .img-picture-art {
+  max-width: 127px;
+  max-height: 174px;
+}
+
+main .img-picture-skateboard {
+  max-width: 206px;
+  max-height: 194px;
+}
+
+main .img-picture-music {
+  max-width: 153px;
+  max-height: 197px;
+}
+
+main .img-picture-food {
+  max-width: 172px;
+  max-height: 128px;
+}
