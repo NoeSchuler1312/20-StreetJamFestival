@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'theboldstreetregular';
-  src: url('theboldstreet-webfont.woff2') format('woff2'),
-       url('theboldstreet-webfont.woff') format('woff');
+  font-family: 'theboldstreet';
+  src: url('../fonts/theboldstreet-webfont.woff2') format('woff2'),
+       url('../fonts/theboldstreet-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,7 +13,7 @@ html {
 body {
   max-width: 375px;
   margin: auto;
-  background: #666;
+  background: #202020;
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
@@ -32,6 +32,7 @@ header {
 }
 
 header p {
+  color: #000;
   padding: 10px 25px 0 18px;
 }
 
@@ -71,9 +72,10 @@ h1 {
 
 h1 p {
   color: #fff;
-  font-family: 'theboldstreetregular';
-  font-size: 60px;
+  font-family: 'theboldstreet', sans-serif;
+  font-size: 58px;
   font-weight: 200;
+  line-height: 15px;
   text-align: center;
   text-transform: uppercase;
   padding: 0;
@@ -86,9 +88,7 @@ h1 p {
 
 .title-festival-bottom {
   font-size: 46px;
-
   position: relative;
-  bottom: 15px;
 }
 
 .logo-big .title-festival-top:hover {
@@ -113,11 +113,11 @@ h1 p {
 }
 
 main {
-  background: #000;
+  background-color: #000;
 }
 
 h2 {
-  font-family: 'theboldstreetregular';
+  font-family: 'theboldstreet', sans-serif;
   font-size: 46px;
   font-weight: 200;
   transform: scale(1, 1.2);
@@ -170,6 +170,11 @@ footer h1 {
   transform: scale(0.8, 0.8);
   padding: 25px 0;
 }
+
+footer h2 {
+  padding: 35px 20px 15px 25px;
+}
+
 
 footer {
   background: #000;
@@ -247,6 +252,7 @@ footer {
 .img-portrait {
   max-width: 75%;
   margin: auto;
+  padding: 18px 0 0;
 }
 
 .img-text-festival {
