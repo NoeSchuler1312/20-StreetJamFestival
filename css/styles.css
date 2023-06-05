@@ -31,9 +31,13 @@ header {
   height: 280px;
 }
 
+header p {
+  padding: 10px 25px 0 18px;
+}
+
 p {
   font-size: 16px;
-  padding: 0 25px 20px 25px;
+  padding: 0 25px 20px;
   margin: 0;
   line-height: 18.5px;
 }
@@ -48,15 +52,11 @@ strong {
 
 .note {
   font-size: 12px;
+  padding: 5px 25px 20px;
 }
 
 .note-portrait {
   text-align: center;
-}
-
-header p {
-  margin: 0;
-  padding: 0;
 }
 
 .container {
@@ -64,8 +64,52 @@ header p {
 }
 
 h1 {
+  padding: 60px 0 0 17px;
+  margin: auto;
+  width: 225px;
+}
+
+h1 p {
+  color: #fff;
+  font-family: 'theboldstreetregular';
+  font-size: 60px;
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
   padding: 0;
   margin: 0;
+}
+
+.title-festival-middle {
+  font-size: 116px;
+}
+
+.title-festival-bottom {
+  font-size: 46px;
+
+  position: relative;
+  bottom: 15px;
+}
+
+.logo-big .title-festival-top:hover {
+  color:#EA3C24;
+  transform: scale(1.2, 1.2) rotate(2deg);
+  transition: 330ms ease-in-out;
+  cursor: default;
+}
+
+.logo-big .title-festival-middle:hover {
+  color: #5375C1;
+  transform: scale(1.2, 1.2) rotate(-2deg);
+  transition: 330ms ease-in-out;
+  cursor: default;
+}
+
+.logo-big .title-festival-bottom:hover {
+  color: #ECB33D;
+  transform: scale(1.2, 1.2) rotate(2deg);
+  transition: 330ms ease-in-out;
+  cursor: default;
 }
 
 main {
@@ -85,41 +129,50 @@ h2 {
 .container-art {
   background-image: url(../img/bg-tags.jpg);
   height: 261px;
+  margin: 20px 0 0;
 }
 
 .container-skateboard {
   background-image: url(../img/bg-skatepark.jpg);
   height: 261px;
+  margin: 20px 0 0;
 }
 
 .container-music {
   background-image: url(../img/bg-scene.jpg);
   height: 261px;
+  margin: 20px 0 0;
 }
 
 .container-food {
   background-image: url(../img/bg-food.jpg);
   height: 261px;
+  margin: 20px 0 0;
 }
 
-a {
+.cta-mail {
   color: #fff;
   text-decoration: solid underline #fff 1px;
 }
 
+.logo-small {
+  text-decoration: none;
+  line-height: 50px;
+  margin: auto;
+}
+
+footer div:hover {
+  transform: scale(1.1, 1.1);
+  transition: 330ms ease-in-out;
+}
+
+footer h1 {
+  transform: scale(0.8, 0.8);
+  padding: 25px 0;
+}
+
 footer {
   background: #000;
-}
-
-.logo-small {
-  max-width: 150px;
-  margin: auto;
-  padding: 35px 0 40px;
-}
-
-.logo-big {
-  width: 225px;
-  padding: 60px 0 0 17px;
 }
 
 .container-logo {
@@ -142,12 +195,23 @@ footer {
   padding: 0 0 0 18px;
 }
 
-.container-cta p {
-  padding: 10px 35px 0 18px;
+.container-cta img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 330ms ease-in-out;
 }
 
 .cta {
   width: 145px;
+}
+
+.cta-language {
+  color: #000;
+  text-decoration: none;
+}
+
+.cta-language:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .img-text {
