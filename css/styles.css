@@ -32,6 +32,7 @@ header {
 }
 
 header p {
+  font-size: 18px;
   color: #000;
   padding: 10px 25px 6px 18px;
 }
@@ -62,10 +63,7 @@ header p {
   text-decoration: none;
 }
 
-.cta-language:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
+.cta-language-fr
 
 .logo-gif {
   max-width: 230px;
