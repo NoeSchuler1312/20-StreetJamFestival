@@ -33,7 +33,52 @@ header {
 
 header p {
   color: #000;
-  padding: 10px 25px 0 18px;
+  padding: 10px 25px 6px 18px;
+}
+
+.container-cta {
+  width: 50%;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.container-cta img {
+  padding: 0 0 6px 13px;
+}
+
+.container-cta img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 330ms ease-in-out;
+}
+
+.cta {
+  width: 145px;
+}
+
+.cta-language {
+  color: #000;
+  text-decoration: none;
+}
+
+.cta-language:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo-gif {
+  max-width: 227px;
+  padding: 40px 0 0 20px;
+  float: left;
+}
+
+.slogan {
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 40px;
+  padding: 0 0 40px 25px;
 }
 
 p {
@@ -108,34 +153,13 @@ h1 p {
   position: relative;
 }
 
-.logo-big .title-festival-top:hover {
-  color:#EA3C24;
-  transform: scale(1.2, 1.2) rotate(2deg);
-  transition: 330ms ease-in-out;
-  cursor: default;
-}
-
-.logo-big .title-festival-middle:hover {
-  color: #5375C1;
-  transform: scale(1.2, 1.2) rotate(-2deg);
-  transition: 330ms ease-in-out;
-  cursor: default;
-}
-
-.logo-big .title-festival-bottom:hover {
-  color: #ECB33D;
-  transform: scale(1.2, 1.2) rotate(2deg);
-  transition: 330ms ease-in-out;
-  cursor: default;
-}
-
 main {
   background-color: #000;
 }
 
 h2 {
   font-family: 'theboldstreet', sans-serif;
-  font-size: 46px;
+  font-size: 49px;
   font-weight: 200;
   transform: scale(1, 1.2);
   text-transform: capitalize;
@@ -187,37 +211,6 @@ footer {
 
 .container-header {
   flex-flow: row nowrap;
-}
-
-.container-cta {
-  width: 50%;
-  box-sizing: border-box;
-  flex-direction: column;
-  align-items: flex-end;
-  overflow: hidden;
-}
-
-.container-cta img {
-  padding: 0 0 0 18px;
-}
-
-.container-cta img:hover {
-  transform: scale(1.1, 1.1);
-  transition: 330ms ease-in-out;
-}
-
-.cta {
-  width: 145px;
-}
-
-.cta-language {
-  color: #000;
-  text-decoration: none;
-}
-
-.cta-language:hover {
-  color: #ffffff;
-  text-decoration: none;
 }
 
 .img-text {
@@ -376,12 +369,12 @@ nav a:hover {
   text-decoration: underline 2px #fff;
 }
 
-nav .logo-small {
+nav .logo {
   font-family: 'theboldstreet', sans-serif;
   font-size: 46px;
   font-weight: 200;
 }
 
-nav .logo-small:hover {
+nav .logo:hover {
   text-decoration: none;
 }
