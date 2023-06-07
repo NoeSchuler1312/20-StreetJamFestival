@@ -63,7 +63,7 @@ header p {
   text-decoration: none;
 }
 
-.cta-language-fr {
+.cta-language-de {
   text-decoration: underline 2px #000;
 }
 
@@ -193,7 +193,7 @@ h2 {
 
 .cta-mail {
   color: #fff;
-  text-decoration: underline  1px #fff;
+  text-decoration: solid underline #fff 1px;
 }
 
 footer h2 {
