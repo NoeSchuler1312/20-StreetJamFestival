@@ -346,6 +346,23 @@ footer {
   left: 10px;
 }
 
+.container-media {
+  justify-content: space-between;
+  padding: 0 0 20px 0;
+}
+
+.container-media img {
+  max-width: 102px;
+}
+
+.logo-instagram {
+  padding: 0 0 0 25px
+}
+
+.logo-facebook {
+  padding: 0 25px 0 0;
+}
+
 nav {
   display: flex;
   position: sticky;
