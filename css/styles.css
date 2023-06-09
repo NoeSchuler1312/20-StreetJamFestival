@@ -120,6 +120,7 @@ strong {
 
 .note-portrait {
   text-align: center;
+  padding: 10px 25px 20px;
 }
 
 .container {
@@ -170,25 +171,25 @@ h2 {
 .container-art {
   background-image: url(../img/bg-tags.jpg);
   height: 261px;
-  margin: 20px 0 0;
+  margin: 30px 0 0;
 }
 
 .container-skateboard {
   background-image: url(../img/bg-skatepark.jpg);
   height: 261px;
-  margin: 20px 0 0;
+  margin: 30px 0 0;
 }
 
 .container-music {
   background-image: url(../img/bg-scene.jpg);
   height: 261px;
-  margin: 20px 0 0;
+  margin: 30px 0 0;
 }
 
 .container-food {
   background-image: url(../img/bg-food.jpg);
   height: 261px;
-  margin: 20px 0 0;
+  margin: 30px 0 0;
 }
 
 .cta-mail {
